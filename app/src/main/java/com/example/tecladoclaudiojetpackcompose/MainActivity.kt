@@ -28,6 +28,7 @@ import android.content.Context
 import android.media.MediaPlayer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
+import androidx.compose.material3.Text
 import androidx.compose.ui.platform.LocalContext
 
 
@@ -189,7 +190,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                         reproducirSonido(context, R.raw.c5)
                     }
             ) {
-
+            Text("hola")
             }
         }
         Column(modifier = Modifier.width(160.dp)
